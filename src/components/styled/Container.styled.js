@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+    /* @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap"); */
+    /* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"); */
+    /* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap'); */
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap'); */
     //Primary:
     --Light-red-CTA-text: hsl(356, 100%, 66%);
     --Very-light-red-CTA-hover-background: hsl(355, 100%, 74%);
@@ -20,8 +23,8 @@ export const Container = styled.div`
     --Very-dark-gray-blue: hsl(237, 17%, 21%);
     --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
     --font-size: 16px;
-    --overpass-font: "Overpass";
-    --ubuntu-font: "Ubuntu";
+    --overpass-font: 'Overpass', sans-serif;
+    --ubuntu-font: 'Ubuntu', sans-serif;
     --overpass-reguler:300;
     --overpass-semibold:600;
     --ubuntu-reguler:400;

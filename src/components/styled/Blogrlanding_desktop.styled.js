@@ -106,7 +106,7 @@ export const Navbarsection = styled(Hstack)`
     }
     .li_navbarlist_desktop{
         display: list-item;
-        font-size: .85em;
+        font-size: .9em;
         font-weight: var(--ubuntu-reguler);
         color:var(--Very-dark-blue-headings);
         margin-bottom: 15px;
@@ -116,6 +116,12 @@ export const Navbarsection = styled(Hstack)`
         }
         :active{
             font-weight: var(--ubuntu-semibold);
+        }
+        @media screen and (max-width:1025px) {
+            font-size: 1.3em;
+            text-align: left;
+            padding:0 10px;
+            margin:0 20px 15px;
         }
     }
     ul.ul_login_signup{
@@ -206,8 +212,8 @@ export const Productlist = styled.div`
     top: 100px;
     left: 245px;
     @media screen and (max-width:1025px) {
-        top: 30px;
-        left: 40px;
+        top: 80px;
+        left: 170px;
     }
     @media screen and (max-width:600px) {
         position:initial;
@@ -230,8 +236,8 @@ export const Companylist = styled.div`
     top: 100px;
     left: 440px;
     @media screen and (max-width:1025px) {
-        top: 20px;
-        left: 180px;
+        top: 80px;
+        left: 300px;
     }
     @media screen and (max-width:600px) {
         position:initial;
@@ -254,8 +260,8 @@ export const Connectlist = styled.div`
     top: 100px;
     left: 610px;
     @media screen and (max-width:1025px) {
-        top: 20px;
-        left: 180px;
+        top: 80px;
+        left: 420px;
     }
     @media screen and (max-width:600px) {
         position:initial;
