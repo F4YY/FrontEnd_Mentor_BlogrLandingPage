@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    /* @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap"); */
-    /* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"); */
-    /* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap'); */
-
     /* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap'); */
     //Primary:
     --Light-red-CTA-text: hsl(356, 100%, 66%);
@@ -154,5 +150,24 @@ export const Container = styled.div`
     .default{
         transform: rotateZ(0deg);
         transition: 0.3s ease-in-out;
+    }
+    @keyframes slidernav {
+        0% {
+            transform: translate3d(0,-100%,0);
+        }
+        50% {
+            transform: translate3d(0,50%,0);
+        }
+        100% {
+            transform: translate3d(0,0,0);
+        }
+    }
+    @keyframes overlayslide {
+        from {
+            transform: translate3d(0,-100%,0);
+        }
+        to{
+            transform: translate3d(0,0,0);
+        }
     }
 `
